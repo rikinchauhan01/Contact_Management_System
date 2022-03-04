@@ -1,0 +1,7 @@
+C:\Users\DELL\Desktop\SEM_6\Service Oriented Computing (SOC)\Contact_Management_System\BackendService\BackendService\bin\Debug\BackendService.dll.config
+C:\Users\DELL\Desktop\SEM_6\Service Oriented Computing (SOC)\Contact_Management_System\BackendService\BackendService\bin\Debug\BackendService.dll
+C:\Users\DELL\Desktop\SEM_6\Service Oriented Computing (SOC)\Contact_Management_System\BackendService\BackendService\bin\Debug\BackendService.pdb
+C:\Users\DELL\Desktop\SEM_6\Service Oriented Computing (SOC)\Contact_Management_System\BackendService\BackendService\obj\Debug\BackendService.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\SEM_6\Service Oriented Computing (SOC)\Contact_Management_System\BackendService\BackendService\obj\Debug\BackendService.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\SEM_6\Service Oriented Computing (SOC)\Contact_Management_System\BackendService\BackendService\obj\Debug\BackendService.dll
+C:\Users\DELL\Desktop\SEM_6\Service Oriented Computing (SOC)\Contact_Management_System\BackendService\BackendService\obj\Debug\BackendService.pdb
