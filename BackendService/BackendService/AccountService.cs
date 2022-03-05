@@ -22,7 +22,6 @@ namespace BackendService
             cmd = new SqlCommand();
             cmd.Connection = conn;
         }
-
         public User Login(User user)
         {
             dbInit();

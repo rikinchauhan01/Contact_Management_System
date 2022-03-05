@@ -47,9 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ContactService.cs" />
+    <Compile Include="GroupService.cs" />
     <Compile Include="IAccountService.cs" />
     <Compile Include="IContactService.cs" />
+    <Compile Include="IGroupService.cs" />
     <Compile Include="Models\Contact.cs" />
+    <Compile Include="Models\Group.cs" />
+    <Compile Include="Models\GroupContact.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AccountService.cs" />
