@@ -4,6 +4,7 @@
     <br />
     <br />
     <div class="container text-center">
-        <img height="400" width="500" src="images/404_Error.jpg" />
+        <%--<img height="400" width="500" src="images/404_Error.jpg" />--%>
+        <h1>ERROR 404 !!! PAGE NOT FOUND</h1>
     </div>
 </asp:Content>
