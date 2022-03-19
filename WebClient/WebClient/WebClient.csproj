@@ -94,6 +94,7 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
     <Content Include="404.aspx" />
+    <Content Include="AddGroupContacts.aspx" />
     <Content Include="ContactList.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -114,12 +115,17 @@
     <Content Include="Content\multiSelect.css" />
     <Content Include="Dashboard.aspx" />
     <Content Include="DeleteContact.aspx" />
+    <Content Include="DeleteGroup.aspx" />
     <Content Include="EditContact.aspx" />
+    <Content Include="EditGroup.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="GroupList.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="NewContact.aspx" />
+    <Content Include="NewGroup.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="RemoveGroupContact.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -135,6 +141,7 @@
     <Content Include="Scripts\multipleSelect.js" />
     <Content Include="Scripts\popper.min.js" />
     <Content Include="ViewContact.aspx" />
+    <Content Include="ViewGroup.aspx" />
     <Content Include="Web.config" />
     <None Include="Connected Services\AccountServiceReference\item.xsd">
       <SubType>Designer</SubType>
@@ -215,6 +222,13 @@
     <Compile Include="404.aspx.designer.cs">
       <DependentUpon>404.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AddGroupContacts.aspx.cs">
+      <DependentUpon>AddGroupContacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddGroupContacts.aspx.designer.cs">
+      <DependentUpon>AddGroupContacts.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Connected Services\AccountServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -251,6 +265,13 @@
     <Compile Include="DeleteContact.aspx.designer.cs">
       <DependentUpon>DeleteContact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DeleteGroup.aspx.cs">
+      <DependentUpon>DeleteGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteGroup.aspx.designer.cs">
+      <DependentUpon>DeleteGroup.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EditContact.aspx.cs">
       <DependentUpon>EditContact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -258,8 +279,22 @@
     <Compile Include="EditContact.aspx.designer.cs">
       <DependentUpon>EditContact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EditGroup.aspx.cs">
+      <DependentUpon>EditGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditGroup.aspx.designer.cs">
+      <DependentUpon>EditGroup.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GroupList.aspx.cs">
+      <DependentUpon>GroupList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GroupList.aspx.designer.cs">
+      <DependentUpon>GroupList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -282,6 +317,13 @@
     <Compile Include="NewContact.aspx.designer.cs">
       <DependentUpon>NewContact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="NewGroup.aspx.cs">
+      <DependentUpon>NewGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewGroup.aspx.designer.cs">
+      <DependentUpon>NewGroup.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
@@ -289,6 +331,13 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveGroupContact.aspx.cs">
+      <DependentUpon>RemoveGroupContact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RemoveGroupContact.aspx.designer.cs">
+      <DependentUpon>RemoveGroupContact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -303,6 +352,13 @@
     </Compile>
     <Compile Include="ViewContact.aspx.designer.cs">
       <DependentUpon>ViewContact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewGroup.aspx.cs">
+      <DependentUpon>ViewGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewGroup.aspx.designer.cs">
+      <DependentUpon>ViewGroup.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
