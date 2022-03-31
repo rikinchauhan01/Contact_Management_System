@@ -4,7 +4,7 @@
     <form style="margin-top: 5%" runat="server">
         <div class="row justify-content-center">
             <div class="jumbotron">
-                <h4 class="text-danger">Are you Sure You want to delete this Group ?</h4>
+                <h4 class="text-danger">Are you sure you want to delete this group ?</h4>
                 <asp:Label ID="GrpData" runat="server" Text=""></asp:Label>
                 <br />
                 <div class="float-right">

@@ -23,7 +23,7 @@
                                     <label class="label">Name</label>
                                     <div class="input-group">
                                         <asp:TextBox runat="server"
-                                            placeholder="Enter Group Name" CssClass="form-control" ID="Name">
+                                            placeholder="Enter Name" CssClass="form-control" ID="Name">
                                         </asp:TextBox>
 
                                     </div>
@@ -33,7 +33,7 @@
                                         <label class="label">Contact Number</label>
                                         <div class="input-group">
                                             <asp:TextBox runat="server" TextMode="Phone"
-                                                placeholder="Enter contact Number" CssClass="form-control" ID="PhoneNumber">
+                                                placeholder="Enter Contact Number" CssClass="form-control" ID="PhoneNumber">
                                             </asp:TextBox>
                                         </div>
                                     </div>

@@ -33,7 +33,7 @@
 
                                 <div class="form-group row">
                                     <div class="col-md-6">
-                                        <label class="label">Email (Username)</label>
+                                        <label class="label">Email</label>
                                         <div class="input-group">
                                             <asp:TextBox runat="server" TextMode="Email"
                                                 placeholder="Enter Email" CssClass="form-control" ID="Email">
@@ -44,7 +44,7 @@
                                         <label class="label">Contact Number</label>
                                         <div class="input-group">
                                             <asp:TextBox runat="server" TextMode="Phone"
-                                                placeholder="Enter contact Number" CssClass="form-control" ID="PhoneNumber">
+                                                placeholder="Enter Contact Number" CssClass="form-control" ID="PhoneNumber">
                                             </asp:TextBox>
                                         </div>
                                     </div>

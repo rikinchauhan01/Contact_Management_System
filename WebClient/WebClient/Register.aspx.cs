@@ -29,7 +29,7 @@ namespace WebClient
                 WebClient.AccountServiceReference.User fetchedUser = ((AccountServiceReference.IAccountService)proxy).Register(user);
                 if (fetchedUser.Email == null)
                 {
-                    ErrorMessage.Text = "Error occured while Registration. (Username is might be taken)";
+                    ErrorMessage.Text = "Error occured while Registration. (Email is already registered)";
                     return;
                 }
                 this.Context.Items.Add("SuccessMessage", "Registered Successfully..! Please Login");
